@@ -22,6 +22,17 @@ namespace MethodsExercise
             Console.WriteLine($" great! {userName} I love animals - What is your favorite band ?");
             var userFavoriteband = Console.ReadLine();
 
+            Console.WriteLine($"Thanks {userName} here is your profile !");
+            Console.WriteLine("*******************************************");
+
+            Console.WriteLine($" Name :{userName}");
+
+            Console.WriteLine($" Color :{userFavoritecolor}");
+
+            Console.WriteLine($" Favorite Animal : {userFavoriteanimal}");
+
+            Console.WriteLine($"Favorite Band : {userFavoriteband}");
+            
 
 
 
